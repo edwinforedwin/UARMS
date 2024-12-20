@@ -1,0 +1,50 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-size: 2rem;
+}
+.section {
+    display: flex;
+    font-family: "Parkinsans", serif;
+    gap: 3rem;
+    align-items: baseline;
+}
+.alpha {
+    margin-top: 2rem;
+    width: 70%;
+}
+.beta {
+    margin-top: 2rem;
+    width: 70%;
+}
+select {
+    width: 100%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    font-family: "Parkinsans", serif;
+}
+input {
+    width: 100%;
+    border-radius: 0.5rem;
+    font-family: "Parkinsans", serif;
+    height: 2.5rem;
+    border: .1rem solid black;
+}
+input:focus {
+    outline: 0;
+}
+.alpha-comp {
+    width: 100%;
+}
+.beta-comp {
+    width: 100%;
+}
+button {
+    width: 100%;
+    height: 2.5rem;
+    font-family: "Parkinsans", serif;
+    border-radius: 0.5rem;
+    border: .1rem solid black;
+}

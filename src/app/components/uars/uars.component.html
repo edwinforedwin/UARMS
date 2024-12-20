@@ -1,1 +1,39 @@
-<p>uars works!</p>
+<div class="main">
+    <div class="title">Review Submission</div>
+    <div class="section alpha">
+        <div class="alpha-comp">
+            <select name="applications" id="application-select" required>
+                <option value="">Choose Application</option>
+                <option value="fedmi">Fedmi</option>
+                <option value="sahayog">Sahayog</option>
+                <option value="jeevadhara">Jeevadhara</option>
+                <option value="fedmithra">Fedmithra</option>
+            </select>
+        </div>
+        <div class="alpha-comp">
+            <select name="years" id="year-select" required>
+                <option value="">Choose Year</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+            </select>
+        </div>
+        <div class="alpha-comp">
+            <select name="quarters" id="quarter-select" required>
+                <option value="">Choose Quarter</option>
+                <option value="1">Q1</option>
+                <option value="2">Q2</option>
+                <option value="3">Q3</option>
+                <option value="4">Q4</option>
+            </select>
+        </div>
+    </div>
+    <div class="section beta">
+        <div class="beta-comp">
+            <input type="text" placeholder="Remarks" id="remarks" />
+        </div>
+        <div class="beta-comp">
+            <input type="file" />
+        </div>
+        <div class="beta-comp"><div><button mat-raised-button>Submit</button></div></div>
+    </div>
+</div>
