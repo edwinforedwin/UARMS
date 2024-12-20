@@ -1,0 +1,43 @@
+.main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.top-bar {
+    height: 10%;
+    font-size: 1.5rem;
+    background: rgb(75, 102, 145);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.menu-bar {
+    height: 5%;
+    display: flex;
+    gap: 2px;
+    width: 100%;
+}
+.content {
+    height: 80%;
+}
+.footer-bar {
+    height: 5%;
+}
+.menubuttons {
+    width: 100%;
+    height: 2rem;
+    font-family: "Parkinsans", serif;
+    border-radius: 0.25rem;
+    border: 0.25px solid black;
+    font-weight: bold;
+    background-color: rgb(103, 186, 255);
+}
+button:active {
+    background-color: #ffffff;
+    box-shadow: 0 3px #666;
+    transform: translateY(3px);
+}
+.buttonclass {
+    width: 25%;
+}
